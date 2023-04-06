@@ -48,7 +48,7 @@ export default (props: Props) => {
             <IconEnv />
             <span>系统角色:</span>
           </div>
-          <p class="my-2 leading-normal text-sm op-50 dark:op-60">Gently instruct the assistant and set the behavior of the assistant.</p>
+          <p class="my-2 leading-normal text-sm op-50 dark:op-60">eg.你是金融专家，语言简练、专业，请回答下面的问题，</p>
           <div>
             <textarea
               ref={systemInputRef!}
